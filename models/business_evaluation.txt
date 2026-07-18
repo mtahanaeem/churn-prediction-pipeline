@@ -1,0 +1,17 @@
+=== Churn Model Business Evaluation ===
+
+Test set sample: 1409 customers. Actual churners: 374
+
+Threshold Trade-offs:
+Threshold  Predicted  TP (Caught)  FP (Alarms)  FN (Missed)  Precision  Recall    
+0.2        824        345          479          29           41.87%     92.25%    
+0.3        708        318          390          56           44.92%     85.03%    
+0.4        603        291          312          83           48.26%     77.81%    
+0.5        491        263          228          111          53.56%     70.32%    
+0.6        387        220          167          154          56.85%     58.82%    
+0.7        266        169          97           205          63.53%     45.19%    
+0.8        155        112          43           262          72.26%     29.95%    
+
+Business Strategy Suggestion:
+1. High-Value / Retention Outreach (e.g., $100 incentives): Use a high threshold (0.6) to avoid wasteful spend on customers who wouldn't leave.
+2. Low-Cost Email/Survey Campaigns: Use a lower threshold (0.3) to capture and re-engage up to 80% of potential churners.

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/*.csv
+!data/sample_*.csv
+models/*.pkl
+models/results.json
+frontend/node_modules/
+frontend/dist/
+
+.pytest_cache/
+.kilo/
