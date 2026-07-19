@@ -11,3 +11,31 @@ frontend/dist/
 
 .pytest_cache/
 .kilo/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Python egg info
+*.egg-info/
+
+# Docker
+.dockerignore
